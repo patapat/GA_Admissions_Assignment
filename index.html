@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<link href="style.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+<head>
+<title>Patrick Lo's GA Admissions Website</title>
+</head>
+<body>
+	<img src="https://scontent-b-pao.xx.fbcdn.net/hphotos-xfp1/t1.0-9/960177_10102182509590113_142169448_n.jpg" class="top-right" height="200" title="Barely made it">
+	<img src="https://scontent-b-pao.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/406685_10100757425699653_1792616488_n.jpg?oh=632a166b907621b98f663f2ec166354a&oe=54598404" class="bot-left" height="140" title="Welcome to America!">
+	<header>
+		<h1>Patrick's GA Website</h1>
+		<img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/000/1e5/191/33909af.jpg" height="140" class="center">
+		<ul class="contact">
+			<li><b>Email:</b> Patricklo87@gmail.com</li>
+			<li><b>Phone:</b> (510)456-5162</li>
+		</ul>
+		<ul class="header">
+			<li><a href="https://github.com/patapat">GitHub</a></li>
+			<li><a href="http://www.codecademy.com/patrickylo">Codecademy</a></li>
+		</ul>
+	</header>
+	<article>
+		<h2>About Me</h2>
+		<p>I am a man of many interests, but ultimately I love discovering and learning about new things. Of the plethora of hobbies I have, my favorite ones include:</p>
+		<p>
+			<ul>
+				<li>Basketball</li>
+				<li>Badminton</li>
+				<li>Board games</li>
+				<li>Comedy shows</li>
+				<li>Guitar</li>
+			</ul>
+		</p>
+		<h2>Experience</h2>
+		<p>I took my very first programming class in high school learning about Java. At UC Davis I had taken additional classes in C and C++. More recently over the last 9 months I've been utilizing free resources online to familiarize myself with Python, Ruby, JavaScript, HTML, and CSS. One site in particular <a href="https://dash.generalassemb.ly/">Dash</a> was extremely instrumental in the development of this webpage. I owe many thanks to them.</p>
+		<div>
+			<img class="slide">
+		</div>
+	<article>
+
+
+<script>
+var image1 = "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/1526668_10103232132786793_4059327523324886065_n.jpg";
+var image2 = "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xfp1/t31.0-8/887166_10101323487467365_5059979658375889654_o.jpg";
+var image3 = "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/1897905_10102928609724443_1981159771_n.jpg?oh=58d309c0acc4b4bfafe33bea5e5225fc&oe=543947F8&__gda__=1414870006_5b757ced314c4e83b73e1bad7c30c828";
+
+var imageArray= [image1, image2, image3]
+
+var count = 0;
+
+function slideImage() {
+	imageElem = document.getElementsByClassName("slide")[0];
+	imageElem.src = imageArray[count];
+    if (count < 2) {
+        count++;
+     } else {
+     	console.log("SLIDE #" + count);
+     	count = 0;
+    }
+}
+slideImage();
+setInterval(function() { slideImage() }, 4000);
+</script>
+</body>

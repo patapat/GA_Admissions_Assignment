@@ -1,0 +1,85 @@
+body {
+	background: linear-gradient(top, blue, white);
+	background: -moz-linear-gradient(top, blue, white);
+	background: -webkit-linear-gradient(bottom, blue, white);
+}
+
+header {
+	margin: -10px;
+	text-align: center;
+	background: url("http://images5.alphacoders.com/392/392202.jpg");
+	background-size: cover;
+	color: white;
+	font-family: arial;
+	height: 350px;
+	vertical-align: top;
+	position: relative;
+}
+
+h1 {
+	margin-top: -10px;
+	font-size: 40px;
+	padding: 40px 0 0 0;
+}
+.center {
+	border: 7px solid white;
+	border-radius: 20px;
+}
+.carousel {
+	margin: 0 auto;
+	height: 300px;
+}
+.top-right {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 1;
+	border: 7px solid blue;
+	border-radius: 20px;
+}
+.bot-left {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1;
+	border: 7px solid red;
+	border-radius: 20px;
+}
+ul {
+	list-style-type: circle;
+}
+.contact > li{
+	display: inline;
+	padding: 10px;
+}
+.header {
+	padding: 10px;
+	position: relative;
+	bottom: 13px;
+	background: rgba(0,0,0,.7);
+}
+ul.header > li {
+	display: inline;
+	padding: 10px;
+}
+a {
+	color: white;
+}
+article {
+	max-width: 500px;
+	padding: 20px;
+	margin: 0 auto;
+	font-family: 'Francois One', sans-serif;
+}
+.slide {
+	max-width: 400px;
+	margin: 0 auto;
+	display: block;
+}
+
+button {
+	margin: 0 100px 0 100px;
+}
+.contactemail {
+	<p>patricklo87@gmail.com</p>
+}
